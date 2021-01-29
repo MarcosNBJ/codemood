@@ -1,3 +1,13 @@
 plugins:
- reek:
+  reek:
     enabled: true
+    config:
+      file: .reek.yml
+  rubocop:
+    enabled: true
+    config:
+      file: .rubocop.yml
+  flog:
+    enabled: true
+    config:
+      score_threshold: 20.0  
